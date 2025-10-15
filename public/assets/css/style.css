@@ -1,0 +1,82 @@
+/* RecordRTC Example Styles */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #666;
+    text-align: center;
+    margin: 15px 0;
+}
+
+h3, h4 {
+    color: #777;
+    text-align: center;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#btn-start-recording {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btn-start-recording:hover {
+    background-color: #45a049;
+}
+
+#btn-stop-recording {
+    background-color: #f44336;
+    color: white;
+}
+
+#btn-stop-recording:hover {
+    background-color: #da190b;
+}
+
+#btn-stop-recording:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#view1 {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+#audio-blobs-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
